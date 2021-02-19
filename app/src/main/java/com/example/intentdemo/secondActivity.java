@@ -26,7 +26,7 @@ public class secondActivity extends AppCompatActivity {
         moon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "I clicked supermoon", Toast.LENGTH_SHORT).show();
+            //    Toast.makeText(getApplicationContext(), "I clicked supermoon", Toast.LENGTH_SHORT).show();
                 imageID = R.drawable.supermoon;
                 finish();
 
@@ -36,7 +36,7 @@ public class secondActivity extends AppCompatActivity {
         waterfallImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "I clicked waterfall", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "I clicked waterfall", Toast.LENGTH_SHORT).show();
                 imageID = R.drawable.waterfall;
                 finish();
             }
